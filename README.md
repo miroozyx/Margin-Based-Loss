@@ -7,4 +7,3 @@ Distance weighted sampling method, distance weighted triplet loss and margin bas
 The author of the paper `sampling matters in deep embedding learning` supplyed the 
 [mxnet version](https://github.com/chaoyuaw/incubator-mxnet/tree/master/example/gluon/embedding_learning).
 
-If you like this, please **star**.
