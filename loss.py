@@ -88,7 +88,7 @@ def dist_weighted_sampling(labels, embeddings, high_var_threshold=0.5, nonzero_l
     return a_indices, anchors, positives, negatives
 
 
-def margin_based_loss(labels, embeddings, beta_in, margin=0.2, nu=0.0, high_var_threshold=0.5,
+def margin_based_loss(labels, embeddings, beta_in=1.0, margin=0.2, nu=0.0, high_var_threshold=0.5,
                       nonzero_loss_threshold=1.4, neg_multiplier=1):
     """
     Computes the margin base loss.
