@@ -1,4 +1,4 @@
-# Magin-Based-loss
+# Magin-Based-Loss
 This is a tensorflow implementation of margin based loss.
 See [sampling matters in deep embedding learning.](https://arxiv.org/abs/1706.07567) for references.
 
